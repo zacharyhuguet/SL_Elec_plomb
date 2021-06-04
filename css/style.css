@@ -1,0 +1,184 @@
+html, body {
+    margin:0;
+    font-family: 'Source Sans Pro';
+    font-size:16px;
+  }
+  
+  main {
+    position: inherit;
+    margin: 5rem 0 0 0;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+  
+  .navbar {
+    font-size:x-large;
+    width:100%;
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    background: rgb(9, 174, 230) ;
+    height:5rem;
+    z-index: 5;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    padding:0;
+    margin:0;
+    display:flex;
+    align-items: center;
+    height:100%;
+  }
+  
+  .navbar-item {
+    margin-right:3%;
+    width: 8%;
+    margin-top:-1%;
+  
+  }
+  
+  .navbar-item:hover {
+    border-radius: 5px;
+  
+   
+  }
+  
+  .navbar-item:last-child {
+    width: auto;
+    margin-right:2%;
+    margin-left: auto;
+  }
+
+  .navbar-item:first-child {
+    margin-left: 2%;
+  }
+
+  .deco {
+    color: white;
+    margin-top: 5%;
+    
+  }
+  
+  .navbar-link {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    width:100%;
+    text-decoration: none;
+  }
+  
+  .navbar-title {
+    margin-top: 15%;
+    text-align: center;
+    width: 100%;
+    color: white;
+  }
+ 
+  
+  .logo .navbar-title {
+    font-size:1.5rem;
+    font-weight:bold;
+    margin-left:1.5rem;
+  }
+
+  footer {
+    margin-bottom: 0px;
+    margin-top: auto;
+  }
+
+  .footer-title{
+    text-align: center;
+    color: white;
+  }
+
+    .footer-link{
+    text-align: center;
+    text-decoration: none;
+    margin-left: 46%;
+  }
+
+  .footer-menu{
+    margin-bottom: 0%;
+    height: 100%;
+    list-style: none;
+    align-items: center;
+    height:100%;
+    background-color:rgb(9, 174, 230);
+  }
+
+  .diapo {
+    width: 400px;
+    height: 300px;
+    animation: fondu 15s ease-in-out infinite both;
+    
+  }
+
+  .error {
+    color: #FF0000;
+}
+
+.fleche{
+  font-size: 50%;
+  margin-top: 2%;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  margin-left: 0.2%;
+}
+
+.diapoconteneur{
+  margin-top: 5%;
+  margin-left: 14%;
+  margin-right: 15%; 
+  border-width:1px;
+  border-style:solid;
+  border-color:black;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+ .logoglob{
+    margin-top: 10%;
+    margin-left: 46%;
+} 
+
+.logo1{
+  width: 180px;
+  height: 180px;
+}
+
+.logo2{
+  width: 180px;
+  height: 180px;
+}
+
+.logo3{
+  width: 180px;
+  height: 180px;
+}
+
+.logo4{
+  width: 180px;
+  height: 180px;
+}
+
+
+.visite{
+  width: 20%;
+  height: 20%;
+
+}
+
+.deco{
+  text-decoration: none;
+  width: 8%;
+  height: 100%;
+}
+
+
+
+  

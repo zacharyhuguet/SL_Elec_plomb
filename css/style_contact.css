@@ -1,0 +1,22 @@
+.box{
+    margin-left: 38%;
+    margin-right: 38%;
+    font-size: x-large;
+    color: rgb(9, 174, 230);
+    background-color: rgb(216, 216, 216);
+
+}
+
+.box2{
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    
+}
+
+textarea{
+    width: 70%;
+    
+}
+ #nom,#prenom,#adresse,#codePostal,#ville,#telephone,#email {
+     width: 30%;
+ }
