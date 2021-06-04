@@ -18,7 +18,7 @@
         <img class="diapo" name='img1' src='chauffage/1.jpg'>
         <img class="diapo" name='img2' src='chauffage/2.jpg'>
         <img class="diapo" name='img3' src='chauffage/3.jpg'>
-        <img class="fleche" src="image/flecheDroite.jpg" onClick='precedent();'>    
+        <img class="fleche" src="image/flecheDroite.jpg" onClick='precedent();'>
     </div>
 
 

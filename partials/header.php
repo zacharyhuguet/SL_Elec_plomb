@@ -29,10 +29,21 @@
           </a>
         </li>
     
-        <?php 
-            if(count($_SESSION) > 0)
-            { 
-                echo('<li class="navbar-item">
+      
+             
+
+<?php
+
+
+            if(count($_SESSION) > 0){ ?>
+
+              <li class="navbar-item">
+                <a href="indexAdmin.php" class="navbar-link">
+                <span class="navbar-title">Administration</span>
+                </a>
+              </li>   
+            
+         <?php  echo('<li class="navbar-item">
                         <div class="navbar-link deco    ">
                             '.$_SESSION['Auth']['username'].'-
                             <a class="deco" href="logout.php" > Déconnexion </a>

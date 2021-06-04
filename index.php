@@ -1,5 +1,5 @@
 <?php 
-    $auth = 0;
+$auth=0;
     include 'lib/includes.php';
     include 'partials/header.php'; 
 ?>
@@ -15,14 +15,20 @@
 
 
     
-    <div class="diapoconteneur">
-        <img class="fleche" src="image/flecheGauche.jpg" onClick='suivant();'>
-        <img class="diapo" name='img1' src='1.jpg'>
-        <img class="diapo" name='img2' src='2.jpg'>
-        <img class="diapo" name='img3' src='3.jpg'>
-        <img class="fleche" src="image/flecheDroite.jpg" onClick='precedent();'>
-    </div>
-
+<section id="Wrapper">
+	<div id="Slideshow">
+		<div id="Slider">
+			<img name="img1" src="1.jpg"/>
+			<img name="img2" src="2.jpg"/>
+			<img name="img3" src="3.jpg"/>
+		</div>
+		<div id="Arrows">
+			<i id="Prev" class="fa fa-chevron-left fa-2x" aria-hidden="true" onClick='precedent()'></i>
+			<i id="Next" class="fa fa-chevron-right fa-2x" aria-hidden="true" onClick='suivant()'></i>
+		</div>
+		
+	</div>
+</section>
     <div class="logoglob">
 
         <a href="ventilation.php">

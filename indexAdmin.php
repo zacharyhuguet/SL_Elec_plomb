@@ -1,4 +1,5 @@
 <?php 
+    $auth=1;
     include 'lib/includes.php';
     include 'partials/header.php';
 

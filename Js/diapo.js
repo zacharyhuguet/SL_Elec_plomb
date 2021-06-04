@@ -1,7 +1,7 @@
 var cpt = 1 ;
 var cpt2 = 2 ;
 var cpt3 = 3 ;
-var Nbrimg = 7 ;
+var Nbrimg = 6 ;
 var timer1 = null;
 
 function init(){
