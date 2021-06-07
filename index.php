@@ -28,7 +28,11 @@ $auth=0;
 		</div>
 		
 	</div>
-</section>
+   
+</section> <br>
+
+<h2 class="h2main">Mes différents domaines :</h2>
+
     <div class="logoglob">
 
         <a href="ventilation.php">

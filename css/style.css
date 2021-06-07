@@ -178,6 +178,12 @@ html, body {
   width: 8%;
   height: 100%;
 }
+
+.h2main{
+  text-align: center;
+  color:rgb(9, 174, 230);
+}
+
 /* //////////////////////////////////////////////// diapo */
 
 #Wrapper{
