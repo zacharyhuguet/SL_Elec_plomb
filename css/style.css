@@ -141,31 +141,19 @@ html, body {
   padding-bottom: 2%;
 }
 
- .logoglob{
+.logoglob{
     margin-top: 10%;
     margin-left: 46%;
 } 
 
-.logo1{
+.logoCategorie{
   width: 180px;
   height: 180px;
 }
 
-.logo2{
-  width: 180px;
-  height: 180px;
+.imgCategorie {
+  cursor: pointer;
 }
-
-.logo3{
-  width: 180px;
-  height: 180px;
-}
-
-.logo4{
-  width: 180px;
-  height: 180px;
-}
-
 
 .visite{
   width: 20%;

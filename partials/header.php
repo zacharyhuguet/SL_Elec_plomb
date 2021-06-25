@@ -7,7 +7,8 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-
+  
+    <script src="js/jquery-3.6.0.js"></script>
     <nav class="navbar" id="menu">
       <ul class="navbar-menu">
         
@@ -18,7 +19,7 @@
         </li>
 
         <li class="navbar-item">
-          <a href="moi.php" class="navbar-link">
+          <a href="presentation.php" class="navbar-link">
             <span class="navbar-title">Qui suis-je</span>
           </a>
         </li>
@@ -34,7 +35,6 @@
 
 <?php
 
-
             if(count($_SESSION) > 0){ ?>
 
               <li class="navbar-item">
@@ -43,7 +43,7 @@
                 </a>
               </li>   
             
-         <?php  echo('<li class="navbar-item">
+        <?php   echo('<li class="navbar-item">
                         <div class="navbar-link deco    ">
                             '.$_SESSION['Auth']['username'].'-
                             <a class="deco" href="logout.php" > Déconnexion </a>

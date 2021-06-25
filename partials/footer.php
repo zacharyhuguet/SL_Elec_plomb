@@ -12,4 +12,5 @@
 </footer>
     </main>
     </body>
+  <?php //include 'lib/debug.php'; ?>
 </html>

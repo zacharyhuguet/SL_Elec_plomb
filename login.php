@@ -31,13 +31,24 @@
                         <legend>Identifiez-vous</legend>
                         <p>
                             <input type='text'     placeholder='Pseudo*'   name='username' id="username" value="<?php if(isset($_POST['username'])){echo $_POST['username']; }?>"> <br><br>
-                            <input type='password' placeholder='Password*' name='password'> <br><br>
+                            <input type='password' placeholder='Password*' name='password' id="Password"> <!-- <input type="checkbox" onclick="Afficher()"> --><br><br>
                             <input type='submit' value='Connection'>
                         </p>
                     </fieldset>
                 </form>
             </center>
-        </div>
+        <!-- </div>
+        <script>
+            function Afficher()
+            { 
+                var input = document.getElementById("Password"); 
+                if (input.type === "password") { 
+                  input.type = "text"; 
+                } else { 
+                 input.type = "password"; 
+                } 
+            } 
+        </script> -->
         
 <?php
  
